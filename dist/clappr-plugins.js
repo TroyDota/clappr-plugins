@@ -707,7 +707,7 @@
 
         if (err.level === core.PlayerError.Levels.FATAL) {
           this.container.configure({
-            poster: this.options.offlineBanner || ""
+            poster: this.options.playback.offlineBanner || ""
           }); // this.err = err
           // this.container.disableMediaControl()
           // this.container.stop()

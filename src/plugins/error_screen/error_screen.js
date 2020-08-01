@@ -50,7 +50,7 @@ export default class ErrorScreen extends UICorePlugin {
 
   onError(err = {}) {
     if (err.level === PlayerError.Levels.FATAL) {
-      this.container.configure({ poster: this.options.offlineBanner || "" })
+      this.container.configure({ poster: this.options.playback.offlineBanner || "" })
       // this.err = err
       // this.container.disableMediaControl()
       // this.container.stop()
