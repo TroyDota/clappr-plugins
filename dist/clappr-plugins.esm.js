@@ -2605,13 +2605,13 @@ var PosterPlugin = /*#__PURE__*/function (_UIContainerPlugin) {
   }, {
     key: "showPoster",
     value: function showPoster() {
-      this.container.disableMediaControl();
+      // this.container.disableMediaControl()
       this.$el.show();
     }
   }, {
     key: "hidePoster",
     value: function hidePoster() {
-      this.container.enableMediaControl();
+      // this.container.enableMediaControl()
       if (this.shouldHideOnPlay()) this.$el.hide();
     }
   }, {
